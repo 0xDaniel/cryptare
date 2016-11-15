@@ -20,7 +20,7 @@ namespace DecryptionCls
             foreach (string i in t)
             {
                 cuv = i.ToCharArray();
-                Console.WriteLine(cuv);
+
                 for (int j = 0; j < cuv.Length; j++)
                 {
                     if (cuv[j] != '\0')

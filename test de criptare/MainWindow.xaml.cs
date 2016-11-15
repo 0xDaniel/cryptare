@@ -12,11 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.IO;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 using EncryptionCls;
 using DecryptionCls;
+using System.Runtime.InteropServices;
 
 namespace test_de_criptare
 {
@@ -25,37 +23,29 @@ namespace test_de_criptare
     /// </summary>
     public partial class MainWindow : Window
     {
-        [DllImport("Kernel32")]
-        public static extern void AllocConsole();
-
-        [DllImport("Kernel32")]
-        public static extern void FreeConsole();
-
+        
         public MainWindow()
         {
             InitializeComponent();
-            AllocConsole();
-            
-        }       
-        private void crypt_btn_Click(object sender, RoutedEventArgs e)
+            textBox.Document.Blocks.Clear();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            var watch = System.Diagnostics.Stopwatch.StartNew(); //time execution
-            //MessageBox.Show(Encrypt.text(textBox.Text));
-            Console.WriteLine(textBox.Text);
-            Console.WriteLine(Encrypt.text(textBox.Text));
-            watch.Stop();
-            var elapsedMs = watch.ElapsedMilliseconds;
-            Console.WriteLine(elapsedMs);
+            if(new TextRange(textBox.Document.ContentStart, textBox.Document.ContentEnd).Text != string.Empty)
+            {
+                MessageBox.Show(Encrypt.text(new TextRange(textBox.Document.ContentStart, textBox.Document.ContentEnd).Text));
+            }
+            else if (new TextRange(textBox.Document.ContentStart, textBox.Document.ContentEnd).Text == string.Empty)
+            {
+                MessageBox.Show("De cate ori sa-ti spun ca nu pot cripta spatii! :(", "Bulan esti prost!");
+            }
+
         }
 
         private void buttondec_Click(object sender, RoutedEventArgs e)
         {
-            var watch = System.Diagnostics.Stopwatch.StartNew();
-            //MessageBox.Show(Decrypt.text(textBox_Copy.Text));
-            Console.WriteLine(Decrypt.text(textBox_Copy.Text));
-            watch.Stop();
-            var elapsedMs = watch.ElapsedMilliseconds;
-            Console.WriteLine(elapsedMs);
+            MessageBox.Show(Decrypt.text(new TextRange(textBox.Document.ContentStart, textBox.Document.ContentEnd).Text));
         }
     }
 }

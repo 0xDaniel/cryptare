@@ -3,8 +3,3 @@ c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\Encryption
 c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\EncryptionCls\obj\Debug\EncryptionCls.dll
 c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\EncryptionCls\obj\Debug\EncryptionCls.pdb
 c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\EncryptionCls\obj\Debug\EncryptionCls.csprojResolveAssemblyReference.cache
-C:\Users\danie\Desktop\test de criptare\EncryptionCls\bin\Debug\EncryptionCls.dll
-C:\Users\danie\Desktop\test de criptare\EncryptionCls\bin\Debug\EncryptionCls.pdb
-C:\Users\danie\Desktop\test de criptare\EncryptionCls\obj\Debug\EncryptionCls.csprojResolveAssemblyReference.cache
-C:\Users\danie\Desktop\test de criptare\EncryptionCls\obj\Debug\EncryptionCls.dll
-C:\Users\danie\Desktop\test de criptare\EncryptionCls\obj\Debug\EncryptionCls.pdb
