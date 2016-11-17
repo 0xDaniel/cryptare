@@ -18,7 +18,7 @@ namespace EncryptionCls
             char[] cuv = new char[255];
             bool isCons;
             string text = null;
-
+                   
             foreach (string i in t)
             {
                 cuv = i.ToCharArray();
@@ -109,6 +109,7 @@ namespace EncryptionCls
                 }
                 text = text + " ";
                 k = 0;
+              //  "\r\n"
             }
             return text;
         }

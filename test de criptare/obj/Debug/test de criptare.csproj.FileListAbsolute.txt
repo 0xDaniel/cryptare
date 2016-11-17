@@ -16,3 +16,21 @@ c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\test de cr
 c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\test de criptare\bin\Debug\EncryptionCls.pdb
 c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\test de criptare\bin\Debug\DecryptionCls.dll
 c:\users\vfx10\documents\visual studio 2015\Projects\test de criptare\test de criptare\bin\Debug\DecryptionCls.pdb
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\test de criptare.exe.config
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare.exe
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare.pdb
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\test de criptare.exe
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\test de criptare.pdb
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\DecryptionCls.dll
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\EncryptionCls.dll
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\DecryptionCls.pdb
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\bin\Debug\EncryptionCls.pdb
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare.csprojResolveAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\MainWindow.g.cs
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\App.g.cs
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare_MarkupCompile.cache
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare_MarkupCompile.lref
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\MainWindow.baml
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare.g.resources
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test_de_criptare.Properties.Resources.resources
+C:\Users\danie\Documents\GitHub\cryptare\test de criptare\obj\Debug\test de criptare.csproj.GenerateResource.Cache
